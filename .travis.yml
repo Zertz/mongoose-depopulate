@@ -1,0 +1,10 @@
+language: node_js
+node_js:
+  - "0.10"
+  - "0.12"
+  - "4"
+  - "5"
+before_install:
+  - npm i mongoose@^4.0.0
+script:
+  - npm test

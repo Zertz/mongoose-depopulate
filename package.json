@@ -1,0 +1,39 @@
+{
+  "name": "mongoose-depopulate",
+  "version": "0.1.0",
+  "description": "Depopulate an object from a mongoose model",
+  "license": "MIT",
+  "repository": "Zertz/mongoose-depopulate",
+  "author": {
+    "name": "Pier-Luc Gendreau",
+    "url": "github.com/Zertz"
+  },
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "standard && ava --verbose"
+  },
+  "files": [
+    "index.js",
+    "LICENSE",
+    "README.md"
+  ],
+  "keywords": [
+    "mongoose",
+    "model",
+    "schema",
+    "depopulate",
+    "path"
+  ],
+  "dependencies": {
+    "lodash.isarray": "~4.0.0",
+    "lodash.isplainobject": "~4.0.0",
+    "lodash.isundefined": "~3.0.0"
+  },
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "mongoose": "^4.0.0",
+    "standard": "^6.0.0"
+  }
+}
